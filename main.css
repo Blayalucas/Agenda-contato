@@ -1,0 +1,92 @@
+*{
+    Margin: 0;
+    Padding:0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+/* Corpo do Site com fundo zinza  */
+body{
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+/* Cabeçalho */
+header{
+    display: flex;
+    align-items: center;
+}
+/* logo do cabeçalho */
+header.img{
+    height: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/* tamanho da Fonte do cabeçalho */
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Estilo do container  */
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* estilar o formulário  */
+form {
+    display:flex;
+    max-width:640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+/* Estilo do formulário e botão  */
+form input {
+    font-size:24px;
+    background-color: #fff;
+    border:none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+/* Estilo do formulário e botão  */
+form button{
+    background-color: rgb(245, 12, 82);
+    color:#fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+/*  tabela   */
+table{
+    width:100;
+}
+/* Estilizando a tabela   */
+table th {
+    border-bottom: solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+table td {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+table td img {
+    height: 30px;
+    padding: 16px;
+}
+/* Estilizando o contato Salvo */
+
+.salvo {
+    background-color: #d4c433;
+}
+button:hover {
+    background-color: #d4c433
+}
+
